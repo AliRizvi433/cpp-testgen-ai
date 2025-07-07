@@ -26,7 +26,7 @@ This project generates unit tests for C++ applications using a local LLM (Ollama
 
 ## ✅ Result
 Successfully built and ran:
-[==========] 2 tests from 2 test suites ran.
+2 tests from 2 test suites ran.
 [ PASSED ] 2 tests.
 
 ## 🔧 Tools Used
