@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.log
+!logs/build_output.log
 venv/
 
 # C++ build files
