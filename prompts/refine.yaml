@@ -1,0 +1,41 @@
+instructions: 'Here are the generated test cases. Improve them:
+
+  - Remove duplicates
+
+  - Add missing includes
+
+  - Use more meaningful names
+
+  - Ensure compilation'
+build_output: 'Running main() from D:\libs\googletest\googletest-main\googletest-main\googletest\src\gtest_main.cc
+
+  [==========] Running 4 tests from 1 test suite.
+
+  [----------] Global test environment set-up.
+
+  [----------] 4 tests from CalculatorTest
+
+  [ RUN      ] CalculatorTest.AddMethodCorrectness1
+
+  [       OK ] CalculatorTest.AddMethodCorrectness1 (0 ms)
+
+  [ RUN      ] CalculatorTest.AddMethodCorrectness2
+
+  [       OK ] CalculatorTest.AddMethodCorrectness2 (0 ms)
+
+  [ RUN      ] CalculatorTest.AddMethodEdgeCase1
+
+  [       OK ] CalculatorTest.AddMethodEdgeCase1 (0 ms)
+
+  [ RUN      ] CalculatorTest.AddMethodEdgeCase2
+
+  [       OK ] CalculatorTest.AddMethodEdgeCase2 (0 ms)
+
+  [----------] 4 tests from CalculatorTest (0 ms total)
+
+
+  [----------] Global test environment tear-down
+
+  [==========] 4 tests from 1 test suite ran. (0 ms total)
+
+  [  PASSED  ] 4 tests.'

@@ -1,0 +1,21 @@
+task: Generate Unit Tests
+language: C++
+framework: Google Test
+rules:
+  - Do not duplicate tests.
+  - Include necessary headers like gtest/gtest.h.
+  - Use TEST or TEST_F macros properly.
+  - One logical assertion per test function.
+  - Each test function should have a unique name.
+  - Ensure the test file compiles with g++.
+  - Use the same namespace and structure as the original code.
+  - Only test public methods.
+  - Do not mock unless asked explicitly.
+  - Use clear and minimal comments in the tests.
+format:
+  - Return only valid C++ code.
+  - No markdown formatting.
+  - Avoid extra explanation or output.
+output:
+  - File must be saved as `tests/test_main.cpp`.
+  - Use UTF-8 encoding.
